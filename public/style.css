@@ -1,0 +1,60 @@
+/*Setting background*/
+body {
+	background-image: linear-gradient(45deg, #dd4646, #ffee00, #1684af);
+	color: beige;
+	min-height: 100vh;
+}
+
+/*Setting header size which says 'my todo list'*/
+.header {
+	font-size: 3rem;
+}
+
+/*Styling of header and input task bar*/
+.header,
+.addtodo {
+	min-height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Styling of container that contains all tasks*/
+.todo-container {
+	margin: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*Styling of seperate tasks*/
+.todo-item {
+	background-color: white;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	color: rgb(34, 33, 33);
+	margin: 0.5rem;
+	min-width: 50rem;
+	padding-left: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*Styling when task is checked*/
+.done {
+	text-decoration: line-through;
+}
+
+/*Justification of check button*/
+.check {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+}
+
+/*Styling of tasks button (check and delete)*/
+.ui.button {
+	margin: 0;
+	border-radius: 0;
+}
